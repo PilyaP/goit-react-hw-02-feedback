@@ -20,17 +20,17 @@ export const Button = styled.button`
   outline: none;
   transition: all 0.2s ease-in-out;
 
-  /* Общий фон кнопки */
+ 
   background: linear-gradient(to right, blue, yellow);
 
-  /* Цвет кнопки в неактивном состоянии */
+
   &:disabled {
     background: linear-gradient(to right, #c9d6ff, #e2e2e2);
     color: #666;
     cursor: not-allowed;
   }
 
-  /* Цвет кнопки в активном состоянии */
+
   &:not(:disabled) {
     &:hover {
       background: linear-gradient(to right, green, red);
@@ -41,9 +41,9 @@ export const Button = styled.button`
     }
   }
 
-  /* Цвет текста на кнопке */
+
   color: #fff;
 
-  /* Тень кнопки */
+
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 `;
